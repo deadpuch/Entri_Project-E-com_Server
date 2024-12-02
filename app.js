@@ -1,4 +1,5 @@
 import express from "express";
+import 'dotenv/config'
 import { connectdb } from "./config/dataBase.js";
 import { apiRouter} from "./router/index.js";
 import cookieParser from "cookie-parser";
